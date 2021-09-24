@@ -1,0 +1,22 @@
+    
+[ atomtypes ]	
+		name  at.num 	mass	    charge  ptype	sigma		epsilon	
+		oh	  8		    15.99940	-0.683	A	    0.3120		0.170			;from jorgensen - 1996
+      	ho	  1		    1.007940	0.418	A	    0.000000	0.000000		;from jorgensen - 1996
+		ch3	  6 		12.01070	0.145	A		0.35		0.066			;from jorgensen - 1996
+	 hc(ch3)  1			1.007940	0.040   A		0.25		0.030			;from jorgensen - 1996	
+Define the atomtypes for the different water models
+; spc water
+;;    name   at.num mass      charge  ptype sigma        epsilon                       
+;    OW_spc    8     15.9994  -0.8200  A     3.16557e-01  6.50170e-01
+;    HW_spc    1     1.00794   0.4100  A     0.00000e+00  0.00000e+00
+; spce water              
+;    OW_spce   8     15.9994  -0.8476  A   3.16557e-01  6.50170e-01
+;    HW_spce   1     1.00794   0.4238  A   0.000000     0.00000
+
+; tip4pice
+;;   name        at.num mass    charge    ptype     sigma        epsilon
+     OW         15.99940    0.000       A    3.16680e-01  8.82200e-01
+     HW1        1.00800     0.5897      A    0.00000e+00  0.00000e+00
+     HW2        1.00800     0.5897      A    0.00000e+00  0.00000e+00
+     MW         0.00000    -1.1794      D    0.00000e+00  0.00000e+00

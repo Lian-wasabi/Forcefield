@@ -1,0 +1,14 @@
+;atom name	label	charge	mass	#_atoms_bonded	bonded atoms	bond_tolerance
+
+;forcefield for protonated lattice
+H    ho    0.4250     1.008  1    O  0.100             			;hydroxyl hydrogen
+;forcefield for unprotonated lattice
+O    oh   -0.9500    15.998  2    H  0.100	C  0.100			;hydroxyl oxygen
+;forcefield for carbon and Hydrogens
+C	 ch3     0.0600 	 12.0107	 4	  HCH3  0.100  			;carbon bond to OH
+HCH3 hc(ch3) 0.0600	     1.008	     1	  C	 0.100				;hydrogen on carbon
+
+;forcefield for tip4p water
+OW   OW    0.3167    15.999  2     HW1  0.09572    HW2  0.09572    	;tip4p
+HW1  HW1   0.0000     1.008  1     OW  0.09572
+HW2  HW2   0.0000     1.008  1     OW  0.09572

@@ -1,0 +1,9 @@
+; nbfunc 1 		== Lennard-Jones formula for non-bonded interactions
+; comb-rule 2 	== Lorentz-Berthelot mixing rules
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes              1.0     1.0
+
+#include "ffnonbonded.itp"
+#include "ffbonded.itp"

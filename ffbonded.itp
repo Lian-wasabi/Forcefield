@@ -1,0 +1,11 @@
+
+[ bondtypes]
+;; i	j				func      b0         kb
+ho		oh 			    1 		  0.1		 463700		; From ClayFF
+OW      HW1     		1         0.09572    502416.0            ;tip4p
+OW      HW2     		1         0.09572    502416.0            ;tip4p
+
+[ angletypes ]
+;; i	j       k			func	th0		cth
+;ho		oh 		ch3       	1		108.87			; OPLS-AA
+HW1     OW      HW2         1       104.52  628.02          ;tip4p

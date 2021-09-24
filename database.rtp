@@ -1,0 +1,10 @@
+[ LATT ]
+[ atoms ]
+;name	type	charge	chargegroup
+1	1	0	2
+[ bonds ]
+;names	types	charges	chargegroup
+C	ch3		0.06	1
+H	hc(ch3)	0.425	1
+Oh	oh		-0.95	1
+Ho	ho		0.425	2
